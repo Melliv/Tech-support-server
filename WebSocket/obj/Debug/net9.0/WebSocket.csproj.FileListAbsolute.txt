@@ -1,0 +1,12 @@
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/bin/Debug/net9.0/WebSocket.deps.json
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/bin/Debug/net9.0/WebSocket.dll
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/bin/Debug/net9.0/WebSocket.pdb
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.csproj.AssemblyReference.cache
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.GeneratedMSBuildEditorConfig.editorconfig
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.AssemblyInfoInputs.cache
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.AssemblyInfo.cs
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.csproj.CoreCompileInputs.cache
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.dll
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/refint/WebSocket.dll
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.pdb
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/ref/WebSocket.dll
