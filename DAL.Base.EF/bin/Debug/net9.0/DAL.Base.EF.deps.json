@@ -1,0 +1,76 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DAL.Base.EF/1.0.0": {
+        "dependencies": {
+          "DAL.Base": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0.0"
+        },
+        "runtime": {
+          "DAL.Base.EF.dll": {}
+        }
+      },
+      "Contracts.DAL.Base/1.0.0": {
+        "dependencies": {
+          "Contracts.Domain.Base": "1.0.0"
+        },
+        "runtime": {
+          "Contracts.DAL.Base.dll": {}
+        }
+      },
+      "Contracts.Domain.Base/1.0.0": {
+        "runtime": {
+          "Contracts.Domain.Base.dll": {}
+        }
+      },
+      "DAL.Base/1.0.0": {
+        "dependencies": {
+          "Contracts.DAL.Base": "1.0.0"
+        },
+        "runtime": {
+          "DAL.Base.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore/9.0.0.0": {
+        "runtime": {
+          "Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12804"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DAL.Base.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts.DAL.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts.Domain.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.EntityFrameworkCore/9.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
