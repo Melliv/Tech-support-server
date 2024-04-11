@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "t5WzAFJwL442i28XAm0rJbly1C1APQrxbuT2SkH/Ryt/ZolVzm4VtxN0tHUFPQEhq2QT4SI59RyBLZDt83s0HQ==",
+  "success": true,
+  "projectFilePath": "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj",
+  "expectedPackageFiles": [
+    "/home/melliv/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
+    "/home/melliv/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/6.0.0/microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "/home/melliv/.nuget/packages/microsoft.extensions.options/6.0.0/microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "/home/melliv/.nuget/packages/microsoft.extensions.primitives/6.0.0/microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "/home/melliv/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
