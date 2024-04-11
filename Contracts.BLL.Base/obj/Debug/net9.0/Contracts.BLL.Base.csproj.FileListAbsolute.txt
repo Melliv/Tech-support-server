@@ -1,0 +1,17 @@
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/bin/Debug/net9.0/Contracts.BLL.Base.deps.json
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/bin/Debug/net9.0/Contracts.BLL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/bin/Debug/net9.0/Contracts.BLL.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/bin/Debug/net9.0/Contracts.DAL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/bin/Debug/net9.0/Contracts.Domain.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/bin/Debug/net9.0/Contracts.DAL.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/bin/Debug/net9.0/Contracts.Domain.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.csproj.AssemblyReference.cache
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.GeneratedMSBuildEditorConfig.editorconfig
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.AssemblyInfoInputs.cache
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.AssemblyInfo.cs
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.csproj.CoreCompileInputs.cache
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contract.D140E263.Up2Date
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/refint/Contracts.BLL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/ref/Contracts.BLL.Base.dll
