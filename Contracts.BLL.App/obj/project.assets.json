@@ -1,0 +1,433 @@
+{
+  "version": 3,
+  "targets": {
+    "net9.0": {
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "BLL.App.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "DAL.App.DTO": "1.0.0",
+          "Domain.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BLL.App.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.App.DTO.dll": {}
+        }
+      },
+      "Contracts.BLL.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Contracts.DAL.Base": "1.0.0",
+          "Contracts.Domain.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contracts.BLL.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.BLL.Base.dll": {}
+        }
+      },
+      "Contracts.DAL.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Contracts.DAL.Base": "1.0.0",
+          "DAL.App.DTO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contracts.DAL.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.DAL.App.dll": {}
+        }
+      },
+      "Contracts.DAL.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Contracts.Domain.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Contracts.DAL.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.DAL.Base.dll": {}
+        }
+      },
+      "Contracts.Domain.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Contracts.Domain.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Contracts.Domain.Base.dll": {}
+        }
+      },
+      "DAL.App.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Domain.App": "1.0.0",
+          "Domain.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DAL.App.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DAL.App.DTO.dll": {}
+        }
+      },
+      "Domain.App/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Domain.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.App.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.App.dll": {}
+        }
+      },
+      "Domain.Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Contracts.Domain.Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Domain.Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Domain.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/6.0.0": {
+      "sha512": "9+PnzmQFfEFNR9J2aDTfJGGupShHjOuGw4VUv+JB044biSHrnmCIMD+mJHmb2H7YryrfBEXDurxQ47gJZdCKNQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "BLL.App.DTO/1.0.0": {
+      "type": "project",
+      "path": "../BLL.App.DTO/BLL.App.DTO.csproj",
+      "msbuildProject": "../BLL.App.DTO/BLL.App.DTO.csproj"
+    },
+    "Contracts.BLL.Base/1.0.0": {
+      "type": "project",
+      "path": "../Contracts.BLL.Base/Contracts.BLL.Base.csproj",
+      "msbuildProject": "../Contracts.BLL.Base/Contracts.BLL.Base.csproj"
+    },
+    "Contracts.DAL.App/1.0.0": {
+      "type": "project",
+      "path": "../Contracts.DAL.App/Contracts.DAL.App.csproj",
+      "msbuildProject": "../Contracts.DAL.App/Contracts.DAL.App.csproj"
+    },
+    "Contracts.DAL.Base/1.0.0": {
+      "type": "project",
+      "path": "../Contracts.DAL.Base/Contracts.DAL.Base.csproj",
+      "msbuildProject": "../Contracts.DAL.Base/Contracts.DAL.Base.csproj"
+    },
+    "Contracts.Domain.Base/1.0.0": {
+      "type": "project",
+      "path": "../Contracts.Domain.Base/Contracts.Domain.Base.csproj",
+      "msbuildProject": "../Contracts.Domain.Base/Contracts.Domain.Base.csproj"
+    },
+    "DAL.App.DTO/1.0.0": {
+      "type": "project",
+      "path": "../DAL.App.DTO/DAL.App.DTO.csproj",
+      "msbuildProject": "../DAL.App.DTO/DAL.App.DTO.csproj"
+    },
+    "Domain.App/1.0.0": {
+      "type": "project",
+      "path": "../Domain.App/Domain.App.csproj",
+      "msbuildProject": "../Domain.App/Domain.App.csproj"
+    },
+    "Domain.Base/1.0.0": {
+      "type": "project",
+      "path": "../Domain.Base/Domain.Base.csproj",
+      "msbuildProject": "../Domain.Base/Domain.Base.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net9.0": [
+      "BLL.App.DTO >= 1.0.0",
+      "Contracts.BLL.Base >= 1.0.0",
+      "Contracts.DAL.App >= 1.0.0",
+      "DAL.App.DTO >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/melliv/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.App/Contracts.BLL.App.csproj",
+      "projectName": "Contracts.BLL.App",
+      "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.App/Contracts.BLL.App.csproj",
+      "packagesPath": "/home/melliv/.nuget/packages/",
+      "outputPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.App/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/melliv/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net9.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "projectReferences": {
+            "/home/melliv/RiderProjects/Tech-support-server/BLL.App.DTO/BLL.App.DTO.csproj": {
+              "projectPath": "/home/melliv/RiderProjects/Tech-support-server/BLL.App.DTO/BLL.App.DTO.csproj"
+            },
+            "/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/Contracts.BLL.Base.csproj": {
+              "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/Contracts.BLL.Base.csproj"
+            },
+            "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/Contracts.DAL.App.csproj": {
+              "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/Contracts.DAL.App.csproj"
+            },
+            "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj": {
+              "projectPath": "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net9.0": {
+        "targetAlias": "net9.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/melliv/dotnet/sdk/9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
