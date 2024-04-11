@@ -1,0 +1,17 @@
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/bin/Debug/net9.0/DAL.Base.deps.json
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/bin/Debug/net9.0/DAL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/bin/Debug/net9.0/DAL.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/bin/Debug/net9.0/Contracts.DAL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/bin/Debug/net9.0/Contracts.Domain.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/bin/Debug/net9.0/Contracts.DAL.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/bin/Debug/net9.0/Contracts.Domain.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.csproj.AssemblyReference.cache
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.GeneratedMSBuildEditorConfig.editorconfig
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.AssemblyInfoInputs.cache
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.AssemblyInfo.cs
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.csproj.CoreCompileInputs.cache
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.csproj.Up2Date
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/refint/DAL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/DAL.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base/obj/Debug/net9.0/ref/DAL.Base.dll
