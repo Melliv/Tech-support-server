@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BLL.App.DTO\BLL.App.DTO.csproj" />
+      <ProjectReference Include="..\BLL.Base\BLL.Base.csproj" />
+      <ProjectReference Include="..\Contracts.BLL.App\Contracts.BLL.App.csproj" />
+      <ProjectReference Include="..\Contracts.DAL.App\Contracts.DAL.App.csproj" />
+      <ProjectReference Include="..\Contracts.DAL.Base\Contracts.DAL.Base.csproj" />
+      <ProjectReference Include="..\WebSocket\WebSocket.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="AutoMapper" Version="13.0.1" />
+    </ItemGroup>
+
+</Project>
