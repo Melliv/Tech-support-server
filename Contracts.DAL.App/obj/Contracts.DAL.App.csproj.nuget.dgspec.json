@@ -1,0 +1,388 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/Contracts.DAL.App.csproj": {}
+  },
+  "projects": {
+    "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/Contracts.DAL.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/Contracts.DAL.App.csproj",
+        "projectName": "Contracts.DAL.App",
+        "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/Contracts.DAL.App.csproj",
+        "packagesPath": "/home/melliv/.nuget/packages/",
+        "outputPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melliv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/Contracts.DAL.Base.csproj": {
+                "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/Contracts.DAL.Base.csproj"
+              },
+              "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj": {
+                "projectPath": "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/melliv/dotnet/sdk/9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/Contracts.DAL.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/Contracts.DAL.Base.csproj",
+        "projectName": "Contracts.DAL.Base",
+        "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/Contracts.DAL.Base.csproj",
+        "packagesPath": "/home/melliv/.nuget/packages/",
+        "outputPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melliv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/Contracts.Domain.Base.csproj": {
+                "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/Contracts.Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/melliv/dotnet/sdk/9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/Contracts.Domain.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/Contracts.Domain.Base.csproj",
+        "projectName": "Contracts.Domain.Base",
+        "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/Contracts.Domain.Base.csproj",
+        "packagesPath": "/home/melliv/.nuget/packages/",
+        "outputPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melliv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/melliv/dotnet/sdk/9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj",
+        "projectName": "DAL.App.DTO",
+        "projectPath": "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/DAL.App.DTO.csproj",
+        "packagesPath": "/home/melliv/.nuget/packages/",
+        "outputPath": "/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melliv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/melliv/RiderProjects/Tech-support-server/Domain.App/Domain.App.csproj": {
+                "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Domain.App/Domain.App.csproj"
+              },
+              "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/Domain.Base.csproj": {
+                "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/melliv/dotnet/sdk/9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melliv/RiderProjects/Tech-support-server/Domain.App/Domain.App.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melliv/RiderProjects/Tech-support-server/Domain.App/Domain.App.csproj",
+        "projectName": "Domain.App",
+        "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Domain.App/Domain.App.csproj",
+        "packagesPath": "/home/melliv/.nuget/packages/",
+        "outputPath": "/home/melliv/RiderProjects/Tech-support-server/Domain.App/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melliv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/Domain.Base.csproj": {
+                "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/melliv/dotnet/sdk/9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/Domain.Base.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/Domain.Base.csproj",
+        "projectName": "Domain.Base",
+        "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/Domain.Base.csproj",
+        "packagesPath": "/home/melliv/.nuget/packages/",
+        "outputPath": "/home/melliv/RiderProjects/Tech-support-server/Domain.Base/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melliv/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/Contracts.Domain.Base.csproj": {
+                "projectPath": "/home/melliv/RiderProjects/Tech-support-server/Contracts.Domain.Base/Contracts.Domain.Base.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/melliv/dotnet/sdk/9.0.100-preview.2.24157.14/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
