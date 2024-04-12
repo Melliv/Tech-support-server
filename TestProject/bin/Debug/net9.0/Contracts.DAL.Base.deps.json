@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Contracts.DAL.Base/1.0.0": {
+        "dependencies": {
+          "Contracts.Domain.Base": "1.0.0"
+        },
+        "runtime": {
+          "Contracts.DAL.Base.dll": {}
+        }
+      },
+      "Contracts.Domain.Base/1.0.0": {
+        "runtime": {
+          "Contracts.Domain.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Contracts.DAL.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts.Domain.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

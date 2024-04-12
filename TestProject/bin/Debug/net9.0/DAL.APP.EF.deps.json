@@ -1,0 +1,341 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "DAL.APP.EF/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Contracts.DAL.App": "1.0.0",
+          "DAL.Base.EF": "1.0.0",
+          "Domain.App": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "9.0.0-preview.2.24128.4"
+        },
+        "runtime": {
+          "DAL.APP.EF.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore/9.0.0-preview.2.24128.4": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "9.0.0-preview.2.24128.4",
+          "Microsoft.EntityFrameworkCore.Analyzers": "9.0.0-preview.2.24128.4",
+          "Microsoft.Extensions.Caching.Memory": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.Logging": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12804"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/9.0.0-preview.2.24128.4": {
+        "runtime": {
+          "lib/net8.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12804"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {},
+      "Microsoft.Extensions.Caching.Abstractions/9.0.0-preview.2.24128.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Caching.Memory/9.0.0-preview.2.24128.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Caching.Abstractions": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.Options": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.Primitives": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Caching.Memory.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/9.0.0-preview.2.24128.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.2.24128.5": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging/9.0.0-preview.2.24128.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.Options": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/9.0.0-preview.2.24128.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/9.0.0-preview.2.24128.5": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0-preview.2.24128.5",
+          "Microsoft.Extensions.Primitives": "9.0.0-preview.2.24128.5"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/9.0.0-preview.2.24128.5": {
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.24.12805"
+          }
+        }
+      },
+      "Contracts.DAL.App/1.0.0": {
+        "dependencies": {
+          "Contracts.DAL.Base": "1.0.0",
+          "DAL.App.DTO": "1.0.0"
+        },
+        "runtime": {
+          "Contracts.DAL.App.dll": {}
+        }
+      },
+      "Contracts.DAL.Base/1.0.0": {
+        "dependencies": {
+          "Contracts.Domain.Base": "1.0.0"
+        },
+        "runtime": {
+          "Contracts.DAL.Base.dll": {}
+        }
+      },
+      "Contracts.Domain.Base/1.0.0": {
+        "runtime": {
+          "Contracts.Domain.Base.dll": {}
+        }
+      },
+      "DAL.App.DTO/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "13.0.1",
+          "Domain.App": "1.0.0",
+          "Domain.Base": "1.0.0"
+        },
+        "runtime": {
+          "DAL.App.DTO.dll": {}
+        }
+      },
+      "DAL.Base/1.0.0": {
+        "dependencies": {
+          "Contracts.DAL.Base": "1.0.0"
+        },
+        "runtime": {
+          "DAL.Base.dll": {}
+        }
+      },
+      "DAL.Base.EF/1.0.0": {
+        "dependencies": {
+          "DAL.Base": "1.0.0"
+        },
+        "runtime": {
+          "DAL.Base.EF.dll": {}
+        }
+      },
+      "Domain.App/1.0.0": {
+        "dependencies": {
+          "Domain.Base": "1.0.0"
+        },
+        "runtime": {
+          "Domain.App.dll": {}
+        }
+      },
+      "Domain.Base/1.0.0": {
+        "dependencies": {
+          "Contracts.Domain.Base": "1.0.0"
+        },
+        "runtime": {
+          "Domain.Base.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DAL.APP.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore/9.0.0-preview.2.24128.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3vlkl3VVojAHYk2nQcl4ASpM36GUGeINGNRb17ArUF28f2o1W59eI4oFRtWvoOo8vsztRETiuabHRpdWUxAUgA==",
+      "path": "microsoft.entityframeworkcore/9.0.0-preview.2.24128.4",
+      "hashPath": "microsoft.entityframeworkcore.9.0.0-preview.2.24128.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/9.0.0-preview.2.24128.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5yCvfEVesq/zF+4g5rFnZJXm0e6gDfxpAgr9TmlDUQi5oIlZ4FJrSJG3DKZ/84a2FRFxfRTJT8s5QNq7iInDZQ==",
+      "path": "microsoft.entityframeworkcore.abstractions/9.0.0-preview.2.24128.4",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.9.0.0-preview.2.24128.4.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/9.0.0-preview.2.24128.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eK3lvFCvt/LBgk2xjb5q8moHgHpTnZ5pnINayaT4feRpDnQZ8ZCRBoHJ9f3EQuXN8vaWObeaaGdcqBhTQ1u+2w==",
+      "path": "microsoft.entityframeworkcore.analyzers/9.0.0-preview.2.24128.4",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.9.0.0-preview.2.24128.4.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Abstractions/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fwjAC1qwNYhG7lWbsaDLYt1TJFXpKO1LLBYctx8CkMzjwSdN742pSdmteGsuoVZ+RgM7LhkyhgzB4jE9fwfktQ==",
+      "path": "microsoft.extensions.caching.abstractions/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.caching.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Caching.Memory/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YgkmwWYOkKHh5zOnleUnpQeNUK4B3uFmYJw/LVfU1nj6ntHEC6fhx7q3QEExtvztgd3y5CUBrRAt4fmuILNE/Q==",
+      "path": "microsoft.extensions.caching.memory/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.caching.memory.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sz0ZvGGqgdSCDX+jCzfqN4shBwOhj6eaRLVx2jgiWfcTU6xXTL+ccDmFQVAwRwnPO9cBceTfqxpXuLtcbb+/Sw==",
+      "path": "microsoft.extensions.dependencyinjection/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-o5j9Gk+qVb0wmOvP4OmGp4Q6KhGDebpwhtiUpoJyiksqFCxbYG4tt2fLaCtsj18CVy8+wVmG73FaYERz9MBe/w==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T/23YpjvXcrwxcuSP6a2GrH6e96DAU7D1McRjl+okJ/H912NpqlVhTZ7uLac1R0bsJBBMF9ZEGM41xKCLVULog==",
+      "path": "microsoft.extensions.logging/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.logging.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-puBM+NCKWEee/RxKIsunXWkzvNGVS9DqpAUWavFlv1MQwcaHExPE8GYggSAOqVJU5Kv+FPRvd4su4pLiTh/jhg==",
+      "path": "microsoft.extensions.logging.abstractions/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.logging.abstractions.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ez8aBI7u769uNVNhprZEmbZCcXokNqTs8ILbuG+/t+ujuLLZDRcU4SwQpCCp2HDDqKrFlAIekc9qOjYQS1RAlA==",
+      "path": "microsoft.extensions.options/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.options.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/9.0.0-preview.2.24128.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9MTM5p0U66zXk205iDOY9qFuGR8NRXjbcQbpfTyhwaecnysToHxD7vKJ2LfdnzH4Msj1vSQ+M1bqdE82W4Y6JA==",
+      "path": "microsoft.extensions.primitives/9.0.0-preview.2.24128.5",
+      "hashPath": "microsoft.extensions.primitives.9.0.0-preview.2.24128.5.nupkg.sha512"
+    },
+    "Contracts.DAL.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts.DAL.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Contracts.Domain.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL.App.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DAL.Base.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.App/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Domain.Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

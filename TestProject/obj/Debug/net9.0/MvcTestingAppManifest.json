@@ -1,0 +1,19 @@
+{
+  "BLL.App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/BLL.App",
+  "BLL.App.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/BLL.App.DTO",
+  "BLL.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/BLL.Base",
+  "Contracts.BLL.App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/Contracts.BLL.App",
+  "Contracts.BLL.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/Contracts.BLL.Base",
+  "Contracts.DAL.App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/Contracts.DAL.App",
+  "Contracts.DAL.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/Contracts.DAL.Base",
+  "Contracts.Domain.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/Contracts.Domain.Base",
+  "DAL.App.DTO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/DAL.App.DTO",
+  "DAL.APP.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/DAL.APP.EF",
+  "DAL.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/DAL.Base",
+  "DAL.Base.EF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/DAL.Base.EF",
+  "Domain.App, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/Domain.App",
+  "Domain.Base, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/Domain.Base",
+  "DTO.App.V1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/DTO.App.V1",
+  "WebApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/WebApp",
+  "WebSocket, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/home\/melliv\/RiderProjects\/Tech-support-server\/WebSocket"
+}
