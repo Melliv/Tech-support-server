@@ -10,3 +10,4 @@
 /home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/refint/WebSocket.dll
 /home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.pdb
 /home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/ref/WebSocket.dll
+/home/melliv/RiderProjects/Tech-support-server/WebSocket/obj/Debug/net9.0/WebSocket.sourcelink.json

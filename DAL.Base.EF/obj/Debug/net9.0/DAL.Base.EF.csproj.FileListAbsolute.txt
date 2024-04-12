@@ -19,3 +19,4 @@
 /home/melliv/RiderProjects/Tech-support-server/DAL.Base.EF/obj/Debug/net9.0/ref/DAL.Base.EF.dll
 /home/melliv/RiderProjects/Tech-support-server/DAL.Base.EF/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll
 /home/melliv/RiderProjects/Tech-support-server/DAL.Base.EF/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.xml
+/home/melliv/RiderProjects/Tech-support-server/DAL.Base.EF/obj/Debug/net9.0/DAL.Base.EF.sourcelink.json

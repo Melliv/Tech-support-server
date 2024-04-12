@@ -3,6 +3,7 @@ using Contract.DAL.App;
 using Contracts.BLL.App;
 using DAL.APP.EF;
 using Microsoft.EntityFrameworkCore;
+using Tech_support_server.Middlewares;
 using WebSocket;
 
 namespace Tech_support_server;
@@ -54,6 +55,8 @@ public class Startup(IConfiguration configuration)
         
         // app.UseCors("CorsAllowAll");
         app.UseRouting();
+
+        app.UseExceptionHandlerMiddlewareExtensionHandler();
 
         app.UseEndpoints(endpoints =>
         {

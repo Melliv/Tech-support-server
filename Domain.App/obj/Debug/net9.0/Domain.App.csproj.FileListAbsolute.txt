@@ -15,3 +15,4 @@
 /home/melliv/RiderProjects/Tech-support-server/Domain.App/obj/Debug/net9.0/refint/Domain.App.dll
 /home/melliv/RiderProjects/Tech-support-server/Domain.App/obj/Debug/net9.0/Domain.App.pdb
 /home/melliv/RiderProjects/Tech-support-server/Domain.App/obj/Debug/net9.0/ref/Domain.App.dll
+/home/melliv/RiderProjects/Tech-support-server/Domain.App/obj/Debug/net9.0/Domain.App.sourcelink.json

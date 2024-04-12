@@ -21,3 +21,4 @@
 /home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/obj/Debug/net9.0/ref/Contracts.DAL.App.dll
 /home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/bin/Debug/net9.0/Domain.App.dll
 /home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/bin/Debug/net9.0/Domain.App.pdb
+/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.App/obj/Debug/net9.0/Contracts.DAL.App.sourcelink.json

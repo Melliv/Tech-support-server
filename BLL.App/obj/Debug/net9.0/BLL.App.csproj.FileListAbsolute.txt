@@ -33,3 +33,4 @@
 /home/melliv/RiderProjects/Tech-support-server/BLL.App/bin/Debug/net9.0/Domain.App.pdb
 /home/melliv/RiderProjects/Tech-support-server/BLL.App/bin/Debug/net9.0/WebSocket.dll
 /home/melliv/RiderProjects/Tech-support-server/BLL.App/bin/Debug/net9.0/WebSocket.pdb
+/home/melliv/RiderProjects/Tech-support-server/BLL.App/obj/Debug/net9.0/BLL.App.sourcelink.json

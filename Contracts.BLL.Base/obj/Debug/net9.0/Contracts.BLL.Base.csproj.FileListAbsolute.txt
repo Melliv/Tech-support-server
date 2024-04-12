@@ -15,3 +15,4 @@
 /home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/refint/Contracts.BLL.Base.dll
 /home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.pdb
 /home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/ref/Contracts.BLL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/Contracts.BLL.Base/obj/Debug/net9.0/Contracts.BLL.Base.sourcelink.json

@@ -29,8 +29,8 @@ public class RequestService :
         return base.Update(entity);
     }
 
-    public async Task<IEnumerable<BLLAppDTO.Request>> GetAllSolvedAsync()
+    public async Task<IEnumerable<BLLAppDTO.Request>> GetAllUnsolvedAsync()
     {
-        return (await ServiceRepository.GetAllSolvedAsync()).Select(x => Mapper.Map(x))!;
+        return (await ServiceRepository.GetAllUnsolvedAsync()).Select(x => Mapper.Map(x))!;
     }
 }

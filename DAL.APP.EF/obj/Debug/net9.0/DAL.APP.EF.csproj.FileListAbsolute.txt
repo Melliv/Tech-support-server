@@ -27,3 +27,4 @@
 /home/melliv/RiderProjects/Tech-support-server/DAL.APP.EF/bin/Debug/net9.0/Contracts.DAL.Base.pdb
 /home/melliv/RiderProjects/Tech-support-server/DAL.APP.EF/bin/Debug/net9.0/DAL.App.DTO.pdb
 /home/melliv/RiderProjects/Tech-support-server/DAL.APP.EF/bin/Debug/net9.0/DAL.Base.pdb
+/home/melliv/RiderProjects/Tech-support-server/DAL.APP.EF/obj/Debug/net9.0/DAL.APP.EF.sourcelink.json

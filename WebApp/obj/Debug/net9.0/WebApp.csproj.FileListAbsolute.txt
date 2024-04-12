@@ -599,3 +599,4 @@
 /home/melliv/RiderProjects/Tech-support-server/WebApp/bin/Debug/net9.0/System.Net.WebSockets.WebSocketProtocol.dll
 /home/melliv/RiderProjects/Tech-support-server/WebApp/bin/Debug/net9.0/WebSocket.dll
 /home/melliv/RiderProjects/Tech-support-server/WebApp/bin/Debug/net9.0/WebSocket.pdb
+/home/melliv/RiderProjects/Tech-support-server/WebApp/obj/Debug/net9.0/WebApp.sourcelink.json

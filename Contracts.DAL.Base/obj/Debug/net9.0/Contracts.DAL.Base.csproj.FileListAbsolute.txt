@@ -13,3 +13,4 @@
 /home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/obj/Debug/net9.0/refint/Contracts.DAL.Base.dll
 /home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/obj/Debug/net9.0/Contracts.DAL.Base.pdb
 /home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/obj/Debug/net9.0/ref/Contracts.DAL.Base.dll
+/home/melliv/RiderProjects/Tech-support-server/Contracts.DAL.Base/obj/Debug/net9.0/Contracts.DAL.Base.sourcelink.json

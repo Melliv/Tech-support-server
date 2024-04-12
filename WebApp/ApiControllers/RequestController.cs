@@ -3,6 +3,7 @@ using Contracts.BLL.App;
 using DTO.App.V1;
 using DTO.App.V1.Mappers;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using WebSocket;
 
 namespace Tech_support_server.ApiControllers;
@@ -15,17 +16,19 @@ public class RequestController(IMapper mapper, IAppBLL bll, NotificationHub noti
     private readonly RequestMapper _requestMapper = new(mapper);
 
     // GET: api/Request
-    [HttpGet("solved")]
-    public async Task<ActionResult<IEnumerable<Request>>> GetSolvedRequests()
+    [HttpGet("unsolved")]
+    [Produces("application/json")]
+    [ProducesResponseType(typeof(Request), StatusCodes.Status200OK)]
+    public async Task<ActionResult<IEnumerable<Request>>> GetUnsolvedRequests()
     {
-        return Ok((await bll.Request.GetAllSolvedAsync()).Select(b => _requestMapper.Map(b)));
-        // return await _bll.Request.GetAllSolvedAsync();
+        return Ok((await bll.Request.GetAllUnsolvedAsync()).Select(b => _requestMapper.Map(b)));
     }
-    
+
     // PUT: api/Request/5
     [HttpPut("{id}")]
     [Consumes("application/json")]
     [ProducesResponseType(StatusCodes.Status204NoContent)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<IActionResult> PutRequest(Guid id, Request request)
     {
         var requestBLL = _requestMapper.Map(request);
@@ -40,6 +43,7 @@ public class RequestController(IMapper mapper, IAppBLL bll, NotificationHub noti
     [Consumes("application/json")]
     [Produces("application/json")]
     [ProducesResponseType(typeof(Request), StatusCodes.Status201Created)]
+    [ProducesResponseType(StatusCodes.Status400BadRequest)]
     public async Task<ActionResult<Request>> PostRequest(Request request)
     {
         var requestBLL = _requestMapper.Map(request);

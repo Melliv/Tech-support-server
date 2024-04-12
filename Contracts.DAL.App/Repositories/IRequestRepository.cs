@@ -9,5 +9,5 @@ public interface IRequestRepository : IBaseRepository<Request>, IRequestReposito
 
 public interface IRequestRepositoryCustom<TEntity>
 {
-    Task<IEnumerable<TEntity>> GetAllSolvedAsync();
+    Task<IEnumerable<TEntity>> GetAllUnsolvedAsync();
 }

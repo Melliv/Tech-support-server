@@ -17,3 +17,4 @@
 /home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/obj/Debug/net9.0/ref/DAL.App.DTO.dll
 /home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/bin/Debug/net9.0/Domain.App.dll
 /home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/bin/Debug/net9.0/Domain.App.pdb
+/home/melliv/RiderProjects/Tech-support-server/DAL.App.DTO/obj/Debug/net9.0/DAL.App.DTO.sourcelink.json

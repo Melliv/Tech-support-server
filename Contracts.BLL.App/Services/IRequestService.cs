@@ -7,5 +7,5 @@ namespace Contracts.BLL.App.Services;
 
 public interface IRequestService : IBaseEntityService<Request, DALAppDTO.Request>, IRequestRepositoryCustom<Request>
 {
-    new Task<IEnumerable<Request>> GetAllSolvedAsync();
+    new Task<IEnumerable<Request>> GetAllUnsolvedAsync();
 }

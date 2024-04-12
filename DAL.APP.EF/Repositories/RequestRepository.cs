@@ -11,11 +11,11 @@ public class RequestRepository(AppDbContext dbContext, IMapper mapper)
     : BaseRepository<Request, Domain.App.Request, AppDbContext>(dbContext, new RequestMapper(mapper)),
         IRequestRepository
 {
-    public async Task<IEnumerable<Request>> GetAllSolvedAsync()
+    public async Task<IEnumerable<Request>> GetAllUnsolvedAsync()
     {
         var query = CreateQuery();
         var resQuery = query
-            .Where(r => r.Deadline.AddHours(-1) > DateTime.Now && r.Solved == false);
+            .Where(r => r.Solved == false);
 
         return await resQuery.Select(x => Mapper.Map(x)).ToListAsync();
     }
