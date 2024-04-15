@@ -3,4 +3,4 @@ using BLL.App.DTO;
 
 namespace BLL.App.Mappers;
 
-public class RequestMapper(IMapper mapper) : BaseMapper<Request, DAL.App.DTO.Request>(mapper);
+public class TicketMapper(IMapper mapper) : BaseMapper<Ticket, DAL.App.DTO.Ticket>(mapper);

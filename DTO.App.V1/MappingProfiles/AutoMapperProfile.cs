@@ -6,6 +6,6 @@ public class AutoMapperProfile : Profile
 {
     public AutoMapperProfile()
     {
-        CreateMap<BLL.App.DTO.Request, Request>().ReverseMap();
+        CreateMap<BLL.App.DTO.Ticket, Ticket>().ReverseMap();
     }
 }

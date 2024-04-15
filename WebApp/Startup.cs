@@ -20,16 +20,16 @@ public class Startup(IConfiguration configuration)
                 .EnableDetailedErrors()
                 .EnableSensitiveDataLogging()
         );
-        // services.AddCors(options =>
-        //     {
-        //         options.AddPolicy("CorsAllowAll", builder =>
-        //         {
-        //             builder.AllowAnyHeader();
-        //             builder.AllowAnyMethod();
-        //             builder.AllowAnyOrigin();
-        //         });
-        //     }
-        // );
+        services.AddCors(options =>
+            {
+                options.AddPolicy("CorsAllowAll", builder =>
+                {
+                    builder.AllowAnyHeader();
+                    builder.AllowAnyMethod();
+                    builder.AllowAnyOrigin();
+                });
+            }
+        );
         
         services.AddScoped<IAppUnitOfWork, AppUnitOfWork>();
         services.AddScoped<IAppBLL, AppBLL>();
@@ -55,6 +55,11 @@ public class Startup(IConfiguration configuration)
         
         // app.UseCors("CorsAllowAll");
         app.UseRouting();
+        app.UseCors(x => x
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .SetIsOriginAllowed(origin => true)
+            .AllowCredentials());
 
         app.UseExceptionHandlerMiddlewareExtensionHandler();
 

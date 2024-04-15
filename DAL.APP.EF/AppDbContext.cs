@@ -5,5 +5,5 @@ namespace DAL.APP.EF;
 
 public class AppDbContext(DbContextOptions<AppDbContext> options) : DbContext(options)
 {
-    public DbSet<Request> Request { get; set; } = default!;
+    public DbSet<Ticket> Ticket { get; set; } = default!;
 }

@@ -16,6 +16,6 @@ public class AppBLL : BaseBLL<IAppUnitOfWork>, IAppBLL
         Mapper = mapper;
     }
 
-    public IRequestService Request =>
-        GetService<IRequestService>(() => new RequestService(Uow, Uow.Request, Mapper));
+    public ITicketService Ticket =>
+        GetService<ITicketService>(() => new TicketService(Uow, Uow.Ticket, Mapper));
 }

@@ -9,27 +9,27 @@ using DALAppDTO = DAL.App.DTO;
 
 namespace BLL.App.Services;
 
-public class RequestService :
-    BaseEntityService<IAppUnitOfWork, IRequestRepository, BLLAppDTO.Request, DALAppDTO.Request>, IRequestService
+public class TicketService :
+    BaseEntityService<IAppUnitOfWork, ITicketRepository, BLLAppDTO.Ticket, DALAppDTO.Ticket>, ITicketService
 {
-    public RequestService(IAppUnitOfWork serviceUow, IRequestRepository serviceRepository, IMapper mapper) : base(
-        serviceUow, serviceRepository, new RequestMapper(mapper))
+    public TicketService(IAppUnitOfWork serviceUow, ITicketRepository serviceRepository, IMapper mapper) : base(
+        serviceUow, serviceRepository, new TicketMapper(mapper))
     {
     }
 
-    public new BLLAppDTO.Request Add(BLLAppDTO.Request entity)
+    public new BLLAppDTO.Ticket Add(BLLAppDTO.Ticket entity)
     {
         entity.CreateAt = entity.UpdatedAt;
         return base.Add(entity);
     }
 
-    public new BLLAppDTO.Request Update(BLLAppDTO.Request entity)
+    public new BLLAppDTO.Ticket Update(BLLAppDTO.Ticket entity)
     {
         entity.UpdatedAt = DateTime.Now;
         return base.Update(entity);
     }
 
-    public async Task<IEnumerable<BLLAppDTO.Request>> GetAllUnsolvedAsync()
+    public async Task<IEnumerable<BLLAppDTO.Ticket>> GetAllUnsolvedAsync()
     {
         return (await ServiceRepository.GetAllUnsolvedAsync()).Select(x => Mapper.Map(x))!;
     }

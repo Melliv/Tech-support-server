@@ -9,6 +9,6 @@ namespace DAL.APP.EF;
 public class AppUnitOfWork(AppDbContext uowDbContext, IMapper mapper)
     : BaseUnitOfWork<AppDbContext>(uowDbContext), IAppUnitOfWork
 {
-    public IRequestRepository Request =>
-        GetRepository(() => new RequestRepository(UowDbContext, mapper));
+    public ITicketRepository Ticket =>
+        GetRepository(() => new TicketRepository(UowDbContext, mapper));
 }

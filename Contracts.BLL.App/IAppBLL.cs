@@ -5,5 +5,5 @@ namespace Contracts.BLL.App;
 
 public interface IAppBLL : IBaseBLL
 {
-    IRequestService Request { get; }
+    ITicketService Ticket { get; }
 }

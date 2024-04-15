@@ -7,15 +7,15 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DAL.APP.EF.Repositories;
 
-public class RequestRepository(AppDbContext dbContext, IMapper mapper)
-    : BaseRepository<Request, Domain.App.Request, AppDbContext>(dbContext, new RequestMapper(mapper)),
-        IRequestRepository
+public class TicketRepository(AppDbContext dbContext, IMapper mapper)
+    : BaseRepository<Ticket, Domain.App.Ticket, AppDbContext>(dbContext, new TicketMapper(mapper)),
+        ITicketRepository
 {
-    public async Task<IEnumerable<Request>> GetAllUnsolvedAsync()
+    public async Task<IEnumerable<Ticket>> GetAllUnsolvedAsync()
     {
         var query = CreateQuery();
         var resQuery = query
-            .Where(r => r.Solved == false);
+            .Where(r => r.Solved == false).OrderBy(r => r.Deadline);
 
         return await resQuery.Select(x => Mapper.Map(x)).ToListAsync();
     }

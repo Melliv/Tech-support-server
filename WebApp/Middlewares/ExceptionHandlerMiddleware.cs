@@ -17,7 +17,7 @@ public class ExceptionHandlerMiddleware(RequestDelegate next)
             context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
             context.Response.ContentType = "application/json";
 
-            var response = new { message = "Bad request" };
+            var response = new { message = "Bad ticket" };
             var jsonResponse = JsonConvert.SerializeObject(response);
 
             await context.Response.WriteAsync(jsonResponse);

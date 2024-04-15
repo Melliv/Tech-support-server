@@ -1,13 +1,13 @@
 using Contracts.DAL.Base.Repositories;
-using Request = DAL.App.DTO.Request;
+using Ticket = DAL.App.DTO.Ticket;
 
 namespace Contract.DAL.App.Repositories;
 
-public interface IRequestRepository : IBaseRepository<Request>, IRequestRepositoryCustom<Request>
+public interface ITicketRepository : IBaseRepository<Ticket>, ITicketRepositoryCustom<Ticket>
 {
 }
 
-public interface IRequestRepositoryCustom<TEntity>
+public interface ITicketRepositoryCustom<TEntity>
 {
     Task<IEnumerable<TEntity>> GetAllUnsolvedAsync();
 }

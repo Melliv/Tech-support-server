@@ -5,5 +5,5 @@ namespace Contract.DAL.App;
 
 public interface IAppUnitOfWork: IBaseUnitOfWork
 {
-    IRequestRepository Request { get; }
+    ITicketRepository Ticket { get; }
 }

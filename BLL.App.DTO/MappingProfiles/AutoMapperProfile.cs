@@ -6,6 +6,6 @@ public class AutoMapperProfile : Profile
 {
     public AutoMapperProfile()
     {
-        CreateMap<Request, DAL.App.DTO.Request>().ReverseMap();
+        CreateMap<Ticket, DAL.App.DTO.Ticket>().ReverseMap();
     }
 }

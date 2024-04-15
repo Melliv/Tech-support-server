@@ -1,10 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0d0c07be_002Df905_002D4ad5_002D9829_002D99aa358760bd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Create_Valid_Request" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0d0c07be_002Df905_002D4ad5_002D9829_002D99aa358760bd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Create_Valid_Request" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
-    &lt;TestId&gt;xUnit::526A3F00-F1F4-4B6A-8C97-FA7E0E35F893::net9.0::TestProject.IntegrationTestsApi.RequestApiControllerIntegrationTests&lt;/TestId&gt;
+    &lt;TestId&gt;xUnit::526A3F00-F1F4-4B6A-8C97-FA7E0E35F893::net9.0::TestProject.IntegrationTestsApi.TicketApiControllerIntegrationTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1f1e18da_002D3362_002D43e9_002Da94e_002D7a92ad4434f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RequestApiControllerIntegrationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1f1e18da_002D3362_002D43e9_002Da94e_002D7a92ad4434f4/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="RequestApiControllerIntegrationTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;TestAncestor&gt;
     &lt;TestId&gt;xUnit::526A3F00-F1F4-4B6A-8C97-FA7E0E35F893::net9.0::TestProject.IntegrationTestsApi.RequestApiControllerIntegrationTests&lt;/TestId&gt;
   &lt;/TestAncestor&gt;

@@ -3,7 +3,7 @@ using Domain.Base;
 
 namespace Domain.App;
 
-public class Request : DomainEntityMetaId
+public class Ticket : DomainEntityMetaId
 {
     [Required] [MaxLength(4096)] public string Description { get; set; } = "";
 
