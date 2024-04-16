@@ -128,6 +128,42 @@ public class TicketApiControllerIntegrationTests : IClassFixture<CustomWebApplic
         ticketList.Should().NotBeNull();
         ticketList!.Count.Should().Be(0);
     }
+    
+    [Fact]
+    public async Task Get_Unsolved_Tickets_In_Right_Order()
+    {
+        // // ARRANGE
+        var ticketDTO1 = new Ticket
+        {
+            Description = "first description",
+            Deadline = DateTime.Now,
+        };
+        var ticketDTO2 = new Ticket
+        {
+            Description = "second description",
+            Deadline = DateTime.Now.AddHours(1),
+        };
+        var ticketDTO3 = new Ticket
+        {
+            Description = "third description",
+            Deadline = DateTime.Now.AddDays(1),
+        };
+        await CreateTicket(ticketDTO3);
+        await CreateTicket(ticketDTO1);
+        await CreateTicket(ticketDTO2);
+
+        // ACT
+        var httpResponse = await _client.GetAsync(TicketUnsolvedUri);
+
+        // ASSERT
+        httpResponse.EnsureSuccessStatusCode();
+        var ticketList = await JsonHelper.DeserializeWithWebDefaults<List<Ticket>>(httpResponse.Content);
+        ticketList.Should().NotBeNull();
+        ticketList!.Count.Should().Be(3);
+        ticketList[0].Description.Should().Be(ticketDTO1.Description);
+        ticketList[1].Description.Should().Be(ticketDTO2.Description);
+        ticketList[2].Description.Should().Be(ticketDTO3.Description);
+    }
 
     [Fact]
     public async Task Update_Ticket_Not_Exist()
