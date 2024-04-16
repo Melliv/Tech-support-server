@@ -17,10 +17,7 @@ public class CustomWebApplicationFactory<TStartup> : WebApplicationFactory<TStar
                 .SingleOrDefault(d =>
                     d.ServiceType == typeof(DbContextOptions<AppDbContext>)
                 );
-            if (descriptor != null)
-            {
-                services.Remove(descriptor);
-            }
+            if (descriptor != null) services.Remove(descriptor);
             services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseInMemoryDatabase(builder.GetSetting("test_database_name"));

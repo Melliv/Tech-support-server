@@ -6,11 +6,12 @@ namespace DAL.APP.EF.Mappers;
 public class BaseMapper<TLeftEntity, TRightEntity> : IBaseMapper<TLeftEntity, TRightEntity>
 {
     protected IMapper Mapper;
-        
+
     public BaseMapper(IMapper mapper)
     {
         Mapper = mapper;
     }
+
     public TLeftEntity? Map(TRightEntity? inObject)
     {
         return Mapper.Map<TLeftEntity>(inObject);

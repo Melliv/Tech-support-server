@@ -1,6 +1,7 @@
 using BLL.App;
 using Contract.DAL.App;
 using Contracts.BLL.App;
+using DAL.App.DTO.MappingProfiles;
 using DAL.APP.EF;
 using Microsoft.EntityFrameworkCore;
 using Tech_support_server.Middlewares;
@@ -30,30 +31,27 @@ public class Startup(IConfiguration configuration)
                 });
             }
         );
-        
+
         services.AddScoped<IAppUnitOfWork, AppUnitOfWork>();
         services.AddScoped<IAppBLL, AppBLL>();
         services.AddScoped<NotificationHub>();
-        
+
         services.AddAutoMapper(
-            typeof(DAL.App.DTO.MappingProfiles.AutoMapperProfile),
+            typeof(AutoMapperProfile),
             typeof(BLL.App.DTO.MappingProfiles.AutoMapperProfile),
             typeof(DTO.App.V1.MappingProfiles.AutoMapperProfile)
         );
-        
+
         services.AddSwaggerGen();
         services.AddControllers();
         services.AddSignalR();
     }
-    
+
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
     {
-        // app.UseHttpsRedirection();
-
         app.UseSwagger();
         app.UseSwaggerUI();
-        
-        // app.UseCors("CorsAllowAll");
+
         app.UseRouting();
         app.UseCors(x => x
             .AllowAnyMethod()
@@ -69,5 +67,4 @@ public class Startup(IConfiguration configuration)
             endpoints.MapHub<NotificationHub>("/notifications");
         });
     }
-
 }

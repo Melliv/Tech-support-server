@@ -7,12 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Domain.App\Domain.App.csproj" />
-      <ProjectReference Include="..\Domain.Base\Domain.Base.csproj" />
+        <ProjectReference Include="..\Domain.App\Domain.App.csproj"/>
+        <ProjectReference Include="..\Domain.Base\Domain.Base.csproj"/>
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="AutoMapper" Version="13.0.1" />
+        <PackageReference Include="AutoMapper" Version="13.0.1"/>
     </ItemGroup>
 
 </Project>
