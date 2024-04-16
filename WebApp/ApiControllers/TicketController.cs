@@ -3,7 +3,6 @@ using Contracts.BLL.App;
 using DTO.App.V1;
 using DTO.App.V1.Mappers;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using WebSocket;
 
 namespace Tech_support_server.ApiControllers;
@@ -44,7 +43,7 @@ public class TicketController(IMapper mapper, IAppBLL bll, NotificationHub notif
     [Produces("application/json")]
     [ProducesResponseType(typeof(Ticket), StatusCodes.Status201Created)]
     [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<ActionResult<Ticket>> PostRequest(Ticket ticket)
+    public async Task<ActionResult<Ticket>> PostTicket(Ticket ticket)
     {
         var ticketBLL = _ticketMapper.Map(ticket);
         if (ticketBLL == null) return BadRequest();
